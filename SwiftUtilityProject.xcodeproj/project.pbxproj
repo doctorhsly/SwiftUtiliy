@@ -23,6 +23,8 @@
 		35AD7B4E1BF973560037237C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AD7B4C1BF973560037237C /* LaunchScreen.storyboard */; };
 		35AD7B591BF973560037237C /* SwiftUtilityProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B581BF973560037237C /* SwiftUtilityProjectTests.swift */; };
 		35AD7B641BF973560037237C /* SwiftUtilityProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B631BF973560037237C /* SwiftUtilityProjectUITests.swift */; };
+		B7D9FA471C2C15C20090FFB7 /* 01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D9FA451C2C15C20090FFB7 /* 01@2x.png */; };
+		B7D9FA481C2C15C20090FFB7 /* 01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D9FA461C2C15C20090FFB7 /* 01@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		35AD7B631BF973560037237C /* SwiftUtilityProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityProjectUITests.swift; sourceTree = "<group>"; };
 		35AD7B651BF973560037237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D9FA441C2C0B140090FFB7 /* iOSUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSUtilityPlayground.playground; sourceTree = "<group>"; };
+		B7D9FA451C2C15C20090FFB7 /* 01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01@2x.png"; sourceTree = "<group>"; };
+		B7D9FA461C2C15C20090FFB7 /* 01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 		35AD7B371BF973550037237C = {
 			isa = PBXGroup;
 			children = (
+				B7D9FA451C2C15C20090FFB7 /* 01@2x.png */,
+				B7D9FA461C2C15C20090FFB7 /* 01@3x.png */,
 				B7D9FA441C2C0B140090FFB7 /* iOSUtilityPlayground.playground */,
 				187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */,
 				35A5E6311BFD79040074F39F /* CoreTelephony.framework */,
@@ -285,9 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D9FA481C2C15C20090FFB7 /* 01@3x.png in Resources */,
 				35AD7B4E1BF973560037237C /* LaunchScreen.storyboard in Resources */,
 				35AD7B4B1BF973560037237C /* Assets.xcassets in Resources */,
 				35AD7B491BF973560037237C /* Main.storyboard in Resources */,
+				B7D9FA471C2C15C20090FFB7 /* 01@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
