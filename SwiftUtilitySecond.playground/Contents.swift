@@ -1,7 +1,6 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-
 // MARK: 计算String在指定宽度中的高度
 // 测试实例：
 // let string = "fdjsaflkdsjajklfjs专家房价疯狂的设计开发力度房间看电视就分开了"
@@ -926,7 +925,13 @@ func createCustomAttributedString(strInfoArr infoArr:NSArray , textAlignment ali
     return attributedString
 }
 
+func systemSupprotFont () {
+  for name in UIFont.familyNames() {
+    print(name)
+    if let nameString: String? = name {
+      print("Support Font:\(UIFont.fontNamesForFamilyName(nameString!))")
+    }
+  }
+}
 
-
-
-
+systemSupprotFont()

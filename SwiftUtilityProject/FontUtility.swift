@@ -36,7 +36,7 @@ func contentSize(font: UIFont , content: String , bound:CGSize , lineBreakMode:N
     //
     //
     let options: NSStringDrawingOptions = .UsesLineFragmentOrigin
-    
+  
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.lineBreakMode = lineBreakMode//.ByCharWrapping//lineBreakMode;//
     
