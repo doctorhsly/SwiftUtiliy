@@ -873,8 +873,8 @@ enum Direction {
 //
 //var animal = Animal(id: 24, name: "cat", fullName: "Felis catus")
 //print(animal.id)
-
-
+let animal = "cat"
+let animal2 = "dog"
 
 
 
