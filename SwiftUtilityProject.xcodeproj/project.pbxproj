@@ -66,6 +66,7 @@
 		35AD7B5F1BF973560037237C /* SwiftUtilityProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUtilityProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AD7B631BF973560037237C /* SwiftUtilityProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityProjectUITests.swift; sourceTree = "<group>"; };
 		35AD7B651BF973560037237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D9FA441C2C0B140090FFB7 /* iOSUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSUtilityPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 		35AD7B371BF973550037237C = {
 			isa = PBXGroup;
 			children = (
+				B7D9FA441C2C0B140090FFB7 /* iOSUtilityPlayground.playground */,
 				187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */,
 				35A5E6311BFD79040074F39F /* CoreTelephony.framework */,
 				35AD7B421BF973560037237C /* SwiftUtilityProject */,
