@@ -7,3 +7,5 @@ var str = "Hello, playground"
 var str2 = "Three Branch"
 
 var str3 = "add second branch"
+
+var str4 = "add thrid branch"
