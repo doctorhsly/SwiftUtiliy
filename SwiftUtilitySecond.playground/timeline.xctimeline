@@ -3,7 +3,11 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
+<<<<<<< Updated upstream
          documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=20398&amp;EndingColumnNumber=20&amp;EndingLineNumber=876&amp;StartingColumnNumber=5&amp;StartingLineNumber=876&amp;Timestamp=472646237.46481"
+=======
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=20360&amp;EndingColumnNumber=20&amp;EndingLineNumber=875&amp;StartingColumnNumber=5&amp;StartingLineNumber=875&amp;Timestamp=472646742.827288"
+>>>>>>> Stashed changes
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
