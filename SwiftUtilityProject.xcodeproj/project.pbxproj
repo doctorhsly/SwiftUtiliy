@@ -23,6 +23,7 @@
 		35AD7B4E1BF973560037237C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AD7B4C1BF973560037237C /* LaunchScreen.storyboard */; };
 		35AD7B591BF973560037237C /* SwiftUtilityProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B581BF973560037237C /* SwiftUtilityProjectTests.swift */; };
 		35AD7B641BF973560037237C /* SwiftUtilityProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B631BF973560037237C /* SwiftUtilityProjectUITests.swift */; };
+		B7D9FA4C1C2CB1DF0090FFB7 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		35AD7B631BF973560037237C /* SwiftUtilityProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityProjectUITests.swift; sourceTree = "<group>"; };
 		35AD7B651BF973560037237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D9FA441C2C0B140090FFB7 /* iOSUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSUtilityPlayground.playground; sourceTree = "<group>"; };
+		B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				185C64BD1C1674E10098344F /* FontUtility.swift */,
 				18665B101C223D3F00C4ECB8 /* NetworkUtility */,
 				185C49B61C17C22D00802333 /* Person.swift */,
+				B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */,
 			);
 			path = SwiftUtilityProject;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				185C49B71C17C22D00802333 /* Person.swift in Sources */,
 				185C49BD1C17EAAA00802333 /* TipCalculatorModel.swift in Sources */,
 				187D0EBC1C1129E400CD97E4 /* FileUtility.swift in Sources */,
+				B7D9FA4C1C2CB1DF0090FFB7 /* CreditCard.swift in Sources */,
 				35AD7B461BF973560037237C /* ViewController.swift in Sources */,
 				35A5E6301BFD6AE10074F39F /* CommUtility.swift in Sources */,
 				35AD7B441BF973560037237C /* AppDelegate.swift in Sources */,

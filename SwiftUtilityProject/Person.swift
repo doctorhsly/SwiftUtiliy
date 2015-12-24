@@ -28,6 +28,10 @@ class Person {
     deinit {
         print("\(name) is being deinitialized")
     }
+  
+  func description()  {
+    print("my name is \(name)")
+  }
 }
 
 
