@@ -45,7 +45,6 @@
 /* Begin PBXFileReference section */
 		185C49B61C17C22D00802333 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		185C49BC1C17EAAA00802333 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
-		185C64BC1C1671E90098344F /* SwiftUtilitySecond.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilitySecond.playground; sourceTree = "<group>"; };
 		185C64BD1C1674E10098344F /* FontUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtility.swift; sourceTree = "<group>"; };
 		18665B0E1C223CA500C4ECB8 /* NetwrokUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetwrokUtility.swift; sourceTree = "<group>"; };
 		18665B111C223D5D00C4ECB8 /* BasicRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicRequest.swift; sourceTree = "<group>"; };
@@ -123,7 +122,6 @@
 		35AD7B371BF973550037237C = {
 			isa = PBXGroup;
 			children = (
-				185C64BC1C1671E90098344F /* SwiftUtilitySecond.playground */,
 				187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */,
 				35A5E6311BFD79040074F39F /* CoreTelephony.framework */,
 				35AD7B421BF973560037237C /* SwiftUtilityProject */,
