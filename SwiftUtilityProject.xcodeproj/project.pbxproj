@@ -43,8 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		183E95621C2128D0000014D3 /* Tutorials9_0.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tutorials9_0.playground; sourceTree = "<group>"; };
-		18573C7B1C1A66E4005F193B /* TipCalculatorModel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TipCalculatorModel.playground; sourceTree = "<group>"; };
 		185C49B61C17C22D00802333 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		185C49BC1C17EAAA00802333 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 		185C64BC1C1671E90098344F /* SwiftUtilitySecond.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilitySecond.playground; sourceTree = "<group>"; };
@@ -54,8 +52,6 @@
 		187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilityPlayground.playground; sourceTree = "<group>"; };
 		187D0EBB1C1129E400CD97E4 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
 		1897E31F1C1F9AC20052999E /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		1897E3211C1F9C7C0052999E /* TestVehicle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestVehicle.playground; sourceTree = "<group>"; };
-		189D92011C2390370018C914 /* Swift1.3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift1.3.playground; sourceTree = "<group>"; };
 		35A5E62F1BFD6AE10074F39F /* CommUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommUtility.swift; sourceTree = "<group>"; };
 		35A5E6311BFD79040074F39F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		35AD7B401BF973550037237C /* SwiftUtilityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUtilityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,10 +123,6 @@
 		35AD7B371BF973550037237C = {
 			isa = PBXGroup;
 			children = (
-				189D92011C2390370018C914 /* Swift1.3.playground */,
-				183E95621C2128D0000014D3 /* Tutorials9_0.playground */,
-				1897E3211C1F9C7C0052999E /* TestVehicle.playground */,
-				18573C7B1C1A66E4005F193B /* TipCalculatorModel.playground */,
 				185C64BC1C1671E90098344F /* SwiftUtilitySecond.playground */,
 				187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */,
 				35A5E6311BFD79040074F39F /* CoreTelephony.framework */,
