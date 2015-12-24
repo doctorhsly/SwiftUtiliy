@@ -12,6 +12,4 @@ var str4 = "add thrid branch"
 
 var str5 = "add fourth branch"
 
-var str6 = "doctorhsly"
-
-
+var str8 = "change by jinzekid"
