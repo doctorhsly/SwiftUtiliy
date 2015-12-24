@@ -11,7 +11,3 @@ var str3 = "add second branch"
 var str4 = "add thrid branch"
 
 var str5 = "add fourth branch"
-
-var str6 = "doctorhsly"
-
-
