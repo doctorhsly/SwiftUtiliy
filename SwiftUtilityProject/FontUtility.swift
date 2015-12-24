@@ -11,7 +11,7 @@ import UIKit
 
 
 // MARK: -计算String在指定宽度中的高度
-/*!
+/**
 计算String在指定宽度中的高度
 
 - parameter font:          当前字体
@@ -48,7 +48,7 @@ func contentSize(font: UIFont , content: String , bound:CGSize , lineBreakMode:N
 }
 
 // MARK: -检查font的方法
-/*!
+/**
 检查font的方法
 */
 func systemSupprotFont () {
@@ -62,7 +62,52 @@ func systemSupprotFont () {
 
 
 // MARK: -创建自定义的attributed字符串
+/**
+创建自定义的attributed字符串
 
+- parameter arr:       字符串信息
+- parameter alignment: 字符排序方式
+- parameter space:     间距
+- parameter sepStr:    分隔符
+
+- returns: 自定义的字符串
+*/
+func createCustomAttributedString(infoArr arr:NSArray , textAlignment alignment:NSTextAlignment , lineSpace space:CGFloat , sepeatorString sepStr:String) -> NSAttributedString {
+  
+  let mStr = NSMutableString()
+  let count = arr.count
+  
+  arr.enumerateObjectsUsingBlock { (obj, idx, NULL) -> Void in
+    let str = obj["String"] as! String
+    if idx >= count {
+      mStr.appendFormat("%@", str)
+    } else {
+      mStr.appendFormat("%@%@", str , sepStr)
+    }
+  }
+  
+  let attributedString = NSMutableAttributedString.init(string: mStr as String)
+  let paragraphStyle = NSMutableParagraphStyle.init()
+  paragraphStyle.alignment = alignment
+  paragraphStyle.lineSpacing = space
+  attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: NSMakeRange(0, mStr.length))
+  
+  let nsstring = NSString.init(string: sepStr)
+  let sepeatorLength = nsstring.length
+  var startIndex = 0
+  arr.enumerateObjectsUsingBlock { (obj , idx, NULL) -> Void in
+    let str = obj["String"] as! NSString
+    let font = obj["Font"] as! UIFont
+    let color = obj["Color"] as! UIColor
+    
+    let length = str.length
+    attributedString.addAttribute(NSForegroundColorAttributeName, value: color, range: NSMakeRange(startIndex , length))
+    attributedString.addAttribute(NSFontAttributeName, value: font , range: NSMakeRange(startIndex , length))
+    startIndex += (length + sepeatorLength)
+  }
+  
+  return attributedString
+}
 
 
 

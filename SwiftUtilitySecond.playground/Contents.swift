@@ -875,63 +875,8 @@ enum Direction {
 //print(animal.id)
 
 
-let label = UILabel(frame: CGRectMake(0,0,100,20))
-label.numberOfLines = 0
-label.text = "this is test!"
-label.backgroundColor = UIColor.redColor()
 
-// MARK: -创建自定义的attributed字符串
-// 可能会有内存溢出情况
-func createCustomAttributedString(strInfoArr infoArr:NSArray , textAlignment alignment:NSTextAlignment , lineSpace space:CGFloat) -> NSAttributedString {
-    
-    let mStr = NSMutableString()
-    
-    let count = infoArr.count
-    infoArr.enumerateObjectsUsingBlock { (obj, idx, NULL) -> Void in
-        let str = obj as! String
-        if idx >= count {
-            mStr.appendFormat("%@", str)
-        } else {
-            mStr.appendFormat("%@\n", str)
-        }
-    }
-    
-    let attributedString = NSMutableAttributedString.init(string: mStr as String)
-    let paragraphStyle = NSMutableParagraphStyle.init()
-    paragraphStyle.alignment = alignment
-    paragraphStyle.lineSpacing = space
-    attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: NSRange.init(location: 0, length: mStr.length))
-    
-    var startIndex = 0
-    infoArr.enumerateObjectsUsingBlock { (obj , idx, NULL) -> Void in
-        let str = obj["String"] as! NSString
-        let font = obj["Font"] as! UIFont
-        let color = obj["Color"] as! UIColor
-        
-        // 判断是否需要第二次分解
-        let secondInfo = obj["SecondSepeator"] as! NSDictionary
-        let isNeed = secondInfo["isNeed"] as! Bool
-        if isNeed  {
-            
-        }
-        else {
-            let length = str.length
-            attributedString.addAttribute(NSForegroundColorAttributeName, value: color, range: NSMakeRange(startIndex, length))
-            attributedString.addAttribute(NSFontAttributeName, value: font, range: NSMakeRange(startIndex, length))
-            startIndex += (length + 1)
-        }
-    }
-    
-    return attributedString
-}
 
-func systemSupprotFont () {
-  for name in UIFont.familyNames() {
-    print(name)
-    if let nameString: String? = name {
-      print("Support Font:\(UIFont.fontNamesForFamilyName(nameString!))")
-    }
-  }
-}
 
-systemSupprotFont()
+
+
