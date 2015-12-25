@@ -5,3 +5,5 @@ import UIKit
 let firstName = "Tom"
 
 let lastName = "Jack"
+
+let fireName = "1111"
