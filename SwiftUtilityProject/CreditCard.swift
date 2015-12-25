@@ -16,4 +16,7 @@ class CreditCard {
   }
   
   //test
+  func description() {
+    print("credit card")
+  }
 }
