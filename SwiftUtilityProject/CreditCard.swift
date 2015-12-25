@@ -9,5 +9,9 @@
 import Foundation
 
 class CreditCard {
+  let name: String
   
+  init(name n:String) {
+    self.name = n
+  }
 }
