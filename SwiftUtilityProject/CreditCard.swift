@@ -19,4 +19,9 @@ class CreditCard {
   func description() {
     print("credit card")
   }
+  
+  //test
+  func description2() {
+    print("credit card")
+  }
 }
