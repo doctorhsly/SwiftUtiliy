@@ -2,4 +2,6 @@
 
 import UIKit
 
-let name = "Tom"
+let firstName = "Tom"
+
+let lastName = "Jack"
