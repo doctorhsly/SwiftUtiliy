@@ -65,7 +65,7 @@ func systemSupprotFont () {
 /**
 创建自定义的attributed字符串
 
-- parameter arr:       字符串信息
+- parameter arr:       字符串信息，字符串信息格式:@{@"String":@"",@"Font":UIFont,@"Color":UIColor}
 - parameter alignment: 字符排序方式
 - parameter space:     间距
 - parameter sepStr:    分隔符
@@ -110,4 +110,7 @@ func createCustomAttributedString(infoArr arr:NSArray , textAlignment alignment:
 }
 
 
+func createFont(name: String , size: CGFloat) -> UIFont {
+    return UIFont.init(name: name, size: size)!
+}
 

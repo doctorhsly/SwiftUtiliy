@@ -14,6 +14,10 @@
 		18665B121C223D5D00C4ECB8 /* BasicRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18665B111C223D5D00C4ECB8 /* BasicRequest.swift */; };
 		187D0EBC1C1129E400CD97E4 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D0EBB1C1129E400CD97E4 /* FileUtility.swift */; };
 		1897E3201C1F9AC20052999E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E31F1C1F9AC20052999E /* Vehicle.swift */; };
+		189C79971C30BCF900E7AFED /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C79961C30BCF900E7AFED /* PhotoViewController.swift */; };
+		189C79991C30BD7B00E7AFED /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C79981C30BD7B00E7AFED /* ImageUtility.swift */; };
+		189C799B1C30BDCE00E7AFED /* NumberUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C799A1C30BDCE00E7AFED /* NumberUtility.swift */; };
+		189C799D1C30BE7E00E7AFED /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C799C1C30BE7E00E7AFED /* AppUtility.swift */; };
 		35A5E6301BFD6AE10074F39F /* CommUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5E62F1BFD6AE10074F39F /* CommUtility.swift */; };
 		35A5E6321BFD79040074F39F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A5E6311BFD79040074F39F /* CoreTelephony.framework */; };
 		35AD7B441BF973560037237C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B431BF973560037237C /* AppDelegate.swift */; };
@@ -52,6 +56,10 @@
 		187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilityPlayground.playground; sourceTree = "<group>"; };
 		187D0EBB1C1129E400CD97E4 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
 		1897E31F1C1F9AC20052999E /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		189C79961C30BCF900E7AFED /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		189C79981C30BD7B00E7AFED /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
+		189C799A1C30BDCE00E7AFED /* NumberUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtility.swift; sourceTree = "<group>"; };
+		189C799C1C30BE7E00E7AFED /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		35A5E62F1BFD6AE10074F39F /* CommUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommUtility.swift; sourceTree = "<group>"; };
 		35A5E6311BFD79040074F39F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		35AD7B401BF973550037237C /* SwiftUtilityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUtilityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +160,7 @@
 				185C49BB1C17EA9600802333 /* TipCalculator */,
 				35AD7B431BF973560037237C /* AppDelegate.swift */,
 				35AD7B451BF973560037237C /* ViewController.swift */,
+				189C79961C30BCF900E7AFED /* PhotoViewController.swift */,
 				35AD7B471BF973560037237C /* Main.storyboard */,
 				35AD7B4A1BF973560037237C /* Assets.xcassets */,
 				35AD7B4C1BF973560037237C /* LaunchScreen.storyboard */,
@@ -159,6 +168,9 @@
 				35A5E62F1BFD6AE10074F39F /* CommUtility.swift */,
 				187D0EBB1C1129E400CD97E4 /* FileUtility.swift */,
 				185C64BD1C1674E10098344F /* FontUtility.swift */,
+				189C79981C30BD7B00E7AFED /* ImageUtility.swift */,
+				189C799A1C30BDCE00E7AFED /* NumberUtility.swift */,
+				189C799C1C30BE7E00E7AFED /* AppUtility.swift */,
 				18665B101C223D3F00C4ECB8 /* NetworkUtility */,
 				185C49B61C17C22D00802333 /* Person.swift */,
 				B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */,
@@ -317,15 +329,19 @@
 			files = (
 				18665B121C223D5D00C4ECB8 /* BasicRequest.swift in Sources */,
 				1897E3201C1F9AC20052999E /* Vehicle.swift in Sources */,
+				189C799D1C30BE7E00E7AFED /* AppUtility.swift in Sources */,
 				185C49B71C17C22D00802333 /* Person.swift in Sources */,
 				185C49BD1C17EAAA00802333 /* TipCalculatorModel.swift in Sources */,
 				187D0EBC1C1129E400CD97E4 /* FileUtility.swift in Sources */,
+				189C79971C30BCF900E7AFED /* PhotoViewController.swift in Sources */,
 				B7D9FA4C1C2CB1DF0090FFB7 /* CreditCard.swift in Sources */,
 				35AD7B461BF973560037237C /* ViewController.swift in Sources */,
 				35A5E6301BFD6AE10074F39F /* CommUtility.swift in Sources */,
+				189C79991C30BD7B00E7AFED /* ImageUtility.swift in Sources */,
 				35AD7B441BF973560037237C /* AppDelegate.swift in Sources */,
 				185C64BE1C1674E10098344F /* FontUtility.swift in Sources */,
 				18665B0F1C223CA500C4ECB8 /* NetwrokUtility.swift in Sources */,
+				189C799B1C30BDCE00E7AFED /* NumberUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

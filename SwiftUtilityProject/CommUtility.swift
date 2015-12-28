@@ -24,17 +24,18 @@ func strIsEmpty(str: String) -> Bool {
     return false
 }
 
-// MARK: version check
-/**
- check app version is need to update 
- */
+// MARK: -版本更新检查
+/*!
+版本更新检查
+
+- parameter newVer: 新版本
+
+- returns: 是否需要更新版本
+*/
 func verIsNeedUpdate(newVer: String) -> Bool {
     
     let mainBundle = NSBundle.mainBundle()
-    
-    //    bundleURL = mainBundle.bundleURL
-    //    mainBundle.bundlePath
-    
+        
     let appVer:AnyObject? = mainBundle.objectForInfoDictionaryKey("CFBundleShortVersionString")
     print("curren ver: \(appVer)")
     
@@ -162,12 +163,6 @@ func loadNotification(key: String) -> AnyObject? {
     return value
 }
 
-
-// MARK: 2位数输出，从01，02，03开始
-func twoDigitNumber(number: Int) -> String {
-    print(String(format: "%02d",number))
-    return String(format: "%02d",number)
-}
 
 
 
