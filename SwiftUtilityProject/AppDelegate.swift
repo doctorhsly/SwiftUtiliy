@@ -61,8 +61,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIDevice.currentDevice().systemVersion
         print("current version \(UIDevice.currentDevice().systemVersion)")
         
-                
-        
 //        var vehicle = Vehicle()
 //        let urlStr = "http://192.168.1.199:8080/api/site/yh/getMySiteList"
 //        BasicRequestFactory.shareInstance.requestForPost(urlStr, parameters: nil)

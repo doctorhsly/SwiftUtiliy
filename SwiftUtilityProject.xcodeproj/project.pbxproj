@@ -18,6 +18,7 @@
 		189C79991C30BD7B00E7AFED /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C79981C30BD7B00E7AFED /* ImageUtility.swift */; };
 		189C799B1C30BDCE00E7AFED /* NumberUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C799A1C30BDCE00E7AFED /* NumberUtility.swift */; };
 		189C799D1C30BE7E00E7AFED /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C799C1C30BE7E00E7AFED /* AppUtility.swift */; };
+		189C79AA1C30FE1500E7AFED /* ErrorHandlerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C79A91C30FE1500E7AFED /* ErrorHandlerUtility.swift */; };
 		35A5E6301BFD6AE10074F39F /* CommUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5E62F1BFD6AE10074F39F /* CommUtility.swift */; };
 		35A5E6321BFD79040074F39F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A5E6311BFD79040074F39F /* CoreTelephony.framework */; };
 		35AD7B441BF973560037237C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7B431BF973560037237C /* AppDelegate.swift */; };
@@ -60,6 +61,7 @@
 		189C79981C30BD7B00E7AFED /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		189C799A1C30BDCE00E7AFED /* NumberUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtility.swift; sourceTree = "<group>"; };
 		189C799C1C30BE7E00E7AFED /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		189C79A91C30FE1500E7AFED /* ErrorHandlerUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerUtility.swift; sourceTree = "<group>"; };
 		35A5E62F1BFD6AE10074F39F /* CommUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommUtility.swift; sourceTree = "<group>"; };
 		35A5E6311BFD79040074F39F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		35AD7B401BF973550037237C /* SwiftUtilityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUtilityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +173,7 @@
 				189C79981C30BD7B00E7AFED /* ImageUtility.swift */,
 				189C799A1C30BDCE00E7AFED /* NumberUtility.swift */,
 				189C799C1C30BE7E00E7AFED /* AppUtility.swift */,
+				189C79A91C30FE1500E7AFED /* ErrorHandlerUtility.swift */,
 				18665B101C223D3F00C4ECB8 /* NetworkUtility */,
 				185C49B61C17C22D00802333 /* Person.swift */,
 				B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */,
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C79AA1C30FE1500E7AFED /* ErrorHandlerUtility.swift in Sources */,
 				18665B121C223D5D00C4ECB8 /* BasicRequest.swift in Sources */,
 				1897E3201C1F9AC20052999E /* Vehicle.swift in Sources */,
 				189C799D1C30BE7E00E7AFED /* AppUtility.swift in Sources */,

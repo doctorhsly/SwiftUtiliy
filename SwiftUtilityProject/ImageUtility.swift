@@ -12,6 +12,7 @@
 import Foundation
 import UIKit
 
+
 func isAvaliableCamera () -> Bool {
     if UIImagePickerController.isSourceTypeAvailable(.Camera) {
         return true
