@@ -144,7 +144,7 @@ func checkObjIsNull(object: AnyObject?) -> Bool {
 *  @param kv      key值
 *  @param keyName key的名称
 */
-func saveNotification(key: String , value: String) {
+func saveNotificationWithString(key: String , value: String) {
     let defatuls = NSUserDefaults.standardUserDefaults()
     defatuls.setObject(value, forKey: key)
     defatuls.synchronize()
@@ -161,6 +161,19 @@ func loadNotification(key: String) -> AnyObject? {
     let defaults = NSUserDefaults.standardUserDefaults()
     let value = defaults.objectForKey(key)
     return value
+}
+
+
+func saveNotificationWithBool(key key: String , value: Bool) {
+    let defaults = NSUserDefaults.standardUserDefaults()
+    defaults.setBool(value, forKey: key)
+}
+
+
+func loadBoolNotification(key k:  String) -> Bool {
+    let defaults = NSUserDefaults.standardUserDefaults()
+    let value = defaults.objectForKey(k)?.boolValue
+    return value!
 }
 
 
