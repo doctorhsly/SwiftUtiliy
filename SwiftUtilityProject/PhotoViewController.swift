@@ -94,5 +94,43 @@ class PhotoViewController: UIViewController , UIImagePickerControllerDelegate , 
             print("cancel image picker contoller")
         }
     }
+    
+    
+    @IBAction func loginAction(sender: AnyObject) {
+        
+        var usernameTextField: UITextField?
+        var passwordTextField: UITextField?
+        
+        let alertController = UIAlertController.init(title: "Log in", message: "Please enter your credentials", preferredStyle: .Alert)
+        
+        let loginAction = UIAlertAction(title: "Log in", style: UIAlertActionStyle.Default) { (action) -> Void in
+            
+            if let username = usernameTextField?.text {
+                print("username = \(username)")
+            } else {
+                print("no username entered")
+            }
+            
+            if let password = passwordTextField?.text {
+                print("password = \(password)")
+            } else {
+                print("no password entered")
+            }
+        }
+        
+        alertController.addTextFieldWithConfigurationHandler { (txtUsername) -> Void in
+            usernameTextField = txtUsername
+            usernameTextField!.placeholder = "<Your username here>"
+        }
+        alertController.addTextFieldWithConfigurationHandler { (txtPassword) -> Void in
+            passwordTextField = txtPassword
+            passwordTextField!.secureTextEntry = true
+            passwordTextField!.placeholder = "<Your password here>"
+        }
+        
+        alertController.addAction(loginAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
+    
 
 }

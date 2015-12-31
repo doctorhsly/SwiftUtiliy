@@ -59,6 +59,7 @@
 		187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilityPlayground.playground; sourceTree = "<group>"; };
 		187D0EBB1C1129E400CD97E4 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
 		1897E31F1C1F9AC20052999E /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		18999F061C3211E700EB2324 /* iOSUtilityMyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSUtilityMyPlayground.playground; sourceTree = "<group>"; };
 		189C79961C30BCF900E7AFED /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		189C79981C30BD7B00E7AFED /* ImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		189C799A1C30BDCE00E7AFED /* NumberUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtility.swift; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 		35AD7B371BF973550037237C = {
 			isa = PBXGroup;
 			children = (
+				18999F061C3211E700EB2324 /* iOSUtilityMyPlayground.playground */,
 				187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */,
 				35A5E6311BFD79040074F39F /* CoreTelephony.framework */,
 				35AD7B421BF973560037237C /* SwiftUtilityProject */,
