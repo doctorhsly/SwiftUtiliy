@@ -24,17 +24,18 @@ func strIsEmpty(str: String) -> Bool {
     return false
 }
 
-// MARK: version check
-/**
- check app version is need to update 
- */
+// MARK: -版本更新检查
+/*!
+版本更新检查
+
+- parameter newVer: 新版本
+
+- returns: 是否需要更新版本
+*/
 func verIsNeedUpdate(newVer: String) -> Bool {
     
     let mainBundle = NSBundle.mainBundle()
-    
-    //    bundleURL = mainBundle.bundleURL
-    //    mainBundle.bundlePath
-    
+        
     let appVer:AnyObject? = mainBundle.objectForInfoDictionaryKey("CFBundleShortVersionString")
     print("curren ver: \(appVer)")
     
@@ -143,7 +144,7 @@ func checkObjIsNull(object: AnyObject?) -> Bool {
 *  @param kv      key值
 *  @param keyName key的名称
 */
-func saveNotification(key: String , value: String) {
+func saveNotificationWithString(key: String , value: String) {
     let defatuls = NSUserDefaults.standardUserDefaults()
     defatuls.setObject(value, forKey: key)
     defatuls.synchronize()
@@ -163,11 +164,18 @@ func loadNotification(key: String) -> AnyObject? {
 }
 
 
-// MARK: 2位数输出，从01，02，03开始
-func twoDigitNumber(number: Int) -> String {
-    print(String(format: "%02d",number))
-    return String(format: "%02d",number)
+func saveNotificationWithBool(key key: String , value: Bool) {
+    let defaults = NSUserDefaults.standardUserDefaults()
+    defaults.setBool(value, forKey: key)
 }
+
+
+func loadBoolNotification(key k:  String) -> Bool {
+    let defaults = NSUserDefaults.standardUserDefaults()
+    let value = defaults.objectForKey(k)?.boolValue
+    return value!
+}
+
 
 
 

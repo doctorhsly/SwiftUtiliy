@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qaU-ov-ym4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lKG-Bf-C3u">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Total (Post-Tax):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJg-U9-RXf">
                                 <rect key="frame" x="20" y="81" width="164" height="21"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="164" id="vuF-iN-zY6"/>
                                 </constraints>
@@ -30,7 +29,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Percentage (0%):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1t-eu-Cge">
                                 <rect key="frame" x="20" y="120" width="211" height="21"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="211" id="U43-gI-dTC"/>
                                 </constraints>
@@ -40,20 +38,17 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UHy-pO-9Ba">
                                 <rect key="frame" x="192" y="77" width="392" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="XMj-YL-XgS">
                                 <rect key="frame" x="190" y="116" width="396" height="31"/>
-                                <animations/>
                                 <connections>
                                     <action selector="taxPercentageChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="KSu-Qx-UWd"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEH-cD-hGU">
                                 <rect key="frame" x="268" y="154" width="65" height="30"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="49F-XB-O1U"/>
                                 </constraints>
@@ -64,7 +59,6 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mBa-Cz-OF3">
                                 <rect key="frame" x="20" y="192" width="600" height="408"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Iib-Ew-28B"/>
@@ -72,7 +66,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
@@ -114,6 +107,54 @@
             </objects>
             <point key="canvasLocation" x="1189" y="242"/>
         </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="PUU-az-4zI">
+            <objects>
+                <viewController id="lKG-Bf-C3u" customClass="PhotoViewController" customModule="SwiftUtilityProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dmm-JJ-1IQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="2WR-yN-qn5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gTN-d7-4er">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQ0-w7-Xjw">
+                                <rect key="frame" x="225" y="95" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Yc5-ji-5vx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Take Photo"/>
+                                <connections>
+                                    <action selector="takePhotoAction:" destination="lKG-Bf-C3u" eventType="touchUpInside" id="4oy-0j-QD0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RuI-io-qDP">
+                                <rect key="frame" x="180" y="280" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Y59-0g-C5z"/>
+                                    <constraint firstAttribute="width" constant="240" id="nLw-bx-iaX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2WR-yN-qn5" firstAttribute="top" secondItem="aQ0-w7-Xjw" secondAttribute="bottom" constant="455" id="4E3-1o-n6z"/>
+                            <constraint firstItem="2WR-yN-qn5" firstAttribute="top" secondItem="RuI-io-qDP" secondAttribute="bottom" constant="192" id="BCs-6r-qOf"/>
+                            <constraint firstItem="RuI-io-qDP" firstAttribute="centerX" secondItem="aQ0-w7-Xjw" secondAttribute="centerX" id="iFZ-5z-O42"/>
+                            <constraint firstItem="aQ0-w7-Xjw" firstAttribute="top" secondItem="Dmm-JJ-1IQ" secondAttribute="bottom" constant="75" id="opz-wX-djD"/>
+                            <constraint firstItem="aQ0-w7-Xjw" firstAttribute="centerX" secondItem="gTN-d7-4er" secondAttribute="centerX" id="xgJ-kf-WFg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectImageVIew" destination="RuI-io-qDP" id="ruF-FU-vwv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ecn-Ep-1q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="377" y="918"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="elI-TI-EwJ">
             <objects>
@@ -122,7 +163,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dja-td-1ut">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
