@@ -6,6 +6,10 @@
 //  Copyright © 2015年 TDENERGYs. All rights reserved.
 //
 
+/*
+文字处理类
+*/
+
 import Foundation
 import UIKit
 
