@@ -47,7 +47,7 @@ func contentSize(font: UIFont , content: String , bound:CGSize , lineBreakMode:N
     let attributes = [NSFontAttributeName:font,
         NSParagraphStyleAttributeName:paragraphStyle.copy()]
     let boundingRect = content.boundingRectWithSize(bound, options: options, attributes:attributes, context:nil)
-    
+    print("\(boundingRect.size)")
     return boundingRect.size
 }
 
