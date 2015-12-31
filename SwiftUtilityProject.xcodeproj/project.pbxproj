@@ -12,6 +12,7 @@
 		185C64BE1C1674E10098344F /* FontUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C64BD1C1674E10098344F /* FontUtility.swift */; };
 		18665B0F1C223CA500C4ECB8 /* NetwrokUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18665B0E1C223CA500C4ECB8 /* NetwrokUtility.swift */; };
 		18665B121C223D5D00C4ECB8 /* BasicRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18665B111C223D5D00C4ECB8 /* BasicRequest.swift */; };
+		18720FBC1C34B5900084DFDB /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18720FBB1C34B5900084DFDB /* NetworkUtility.swift */; };
 		187D0EBC1C1129E400CD97E4 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D0EBB1C1129E400CD97E4 /* FileUtility.swift */; };
 		1897E3201C1F9AC20052999E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E31F1C1F9AC20052999E /* Vehicle.swift */; };
 		189C79971C30BCF900E7AFED /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C79961C30BCF900E7AFED /* PhotoViewController.swift */; };
@@ -54,6 +55,7 @@
 		185C64BD1C1674E10098344F /* FontUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtility.swift; sourceTree = "<group>"; };
 		18665B0E1C223CA500C4ECB8 /* NetwrokUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetwrokUtility.swift; sourceTree = "<group>"; };
 		18665B111C223D5D00C4ECB8 /* BasicRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicRequest.swift; sourceTree = "<group>"; };
+		18720FBB1C34B5900084DFDB /* NetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
 		187D0EBA1C111E4E00CD97E4 /* SwiftUtilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftUtilityPlayground.playground; sourceTree = "<group>"; };
 		187D0EBB1C1129E400CD97E4 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
 		1897E31F1C1F9AC20052999E /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				189C799A1C30BDCE00E7AFED /* NumberUtility.swift */,
 				189C799C1C30BE7E00E7AFED /* AppUtility.swift */,
 				189C79A91C30FE1500E7AFED /* ErrorHandlerUtility.swift */,
+				18720FBB1C34B5900084DFDB /* NetworkUtility.swift */,
 				18665B101C223D3F00C4ECB8 /* NetworkUtility */,
 				185C49B61C17C22D00802333 /* Person.swift */,
 				B7D9FA4B1C2CB1DF0090FFB7 /* CreditCard.swift */,
@@ -332,6 +335,7 @@
 				18665B121C223D5D00C4ECB8 /* BasicRequest.swift in Sources */,
 				1897E3201C1F9AC20052999E /* Vehicle.swift in Sources */,
 				189C799D1C30BE7E00E7AFED /* AppUtility.swift in Sources */,
+				18720FBC1C34B5900084DFDB /* NetworkUtility.swift in Sources */,
 				185C49B71C17C22D00802333 /* Person.swift in Sources */,
 				185C49BD1C17EAAA00802333 /* TipCalculatorModel.swift in Sources */,
 				187D0EBC1C1129E400CD97E4 /* FileUtility.swift in Sources */,
