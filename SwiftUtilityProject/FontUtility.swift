@@ -48,6 +48,8 @@ func contentSize(font: UIFont , content: String , bound:CGSize , lineBreakMode:N
         NSParagraphStyleAttributeName:paragraphStyle.copy()]
     let boundingRect = content.boundingRectWithSize(bound, options: options, attributes:attributes, context:nil)
     print("\(boundingRect.size)")
+
+    print("test")
     return boundingRect.size
 }
 
